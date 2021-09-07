@@ -1,0 +1,52 @@
+body{
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+.w-100{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    z-index: -999;
+}
+
+.home-bg{
+    position:relative;
+}
+
+.city-wrap{
+    position: absolute;
+    width: 100%;
+    right: 0px;
+}
+
+.city-wrap img {
+    position: absolute;
+    right: 20px;
+    top: 113px;
+    width: 67%;
+}
+
+.MRT{
+    position: absolute;
+    transform: scale(0.4,0.4);
+    /* left: 0px; */
+    animation: MRT 2s infinite ;
+    left: 1000px;
+    /* bottom: 0px; */
+}
+
+/* @keyframes MRT{
+    50%{left: 1000px;};
+} */
+
+@media screen and (max-width:900px){
+    .city-wrap img{
+        top: 78px;
+        width: 64%;
+    }
+}
+
+
+
